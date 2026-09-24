@@ -5,4 +5,4 @@ app = FastAPI()
 @app.get("/")
 async def h():
     print("Hello, this is the git finnal test!")
-    print("this is a confict merge test")
+    print("this is a confict merge")
