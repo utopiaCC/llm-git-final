@@ -6,3 +6,5 @@ app = FastAPI()
 async def h():
     print("Hello, this is the git finnal test!")
     print("this is a merge confict caused by rag branch")
+    print("test pull request")
+    print("test push")
