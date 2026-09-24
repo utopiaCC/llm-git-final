@@ -5,6 +5,10 @@ app = FastAPI()
 @app.get("/")
 async def h():
     print("Hello, this is the git finnal test!")
+    
+    print("this is a confict test from feature/chat")
+    
+    print("test push again")
 
     print("this is a merge confict, and successful finished")
 
