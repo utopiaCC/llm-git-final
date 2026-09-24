@@ -1,0 +1,7 @@
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def h():
+    print("Hello, this is the git finnal test!")
